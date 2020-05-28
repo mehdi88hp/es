@@ -22,11 +22,11 @@ class KabanServiceProvider extends ServiceProvider
     {
         require_once base_path() . '/kaban/Core/Helpers/GeneralHelper.php';
 
-//        $coreViewsPath = kaban_path() . '/Core/Resources/Views';
-//        if (file_exists($coreViewsPath)) {
-//            $this->loadViewsFrom($coreViewsPath, 'KabanViews');
+        $coreViewsPath = kaban_path() . '/Core/Resources/Views';
+        if (file_exists($coreViewsPath)) {
+            $this->loadViewsFrom($coreViewsPath, 'KabanViews');
 //            $publish[$coreViewsPath] = resource_path('views/vendor/' . 'KabanViews');
-//        }
+        }
 
 //        $templatesPath = kaban_path() . '/Templates';
 //        if (file_exists($templatesPath)) {

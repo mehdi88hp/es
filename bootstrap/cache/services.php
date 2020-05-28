@@ -33,6 +33,8 @@
     29 => 'App\\Providers\\EventServiceProvider',
     30 => 'App\\Providers\\RouteServiceProvider',
     31 => 'Kaban\\Core\\Providers\\KabanServiceProvider',
+    32 => 'Kaban\\Core\\Providers\\ComponentsServiceProvider',
+    33 => 'Kaban\\Core\\Providers\\MixBladeServiceProvider',
   ),
   'eager' => 
   array (
@@ -55,6 +57,8 @@
     16 => 'App\\Providers\\EventServiceProvider',
     17 => 'App\\Providers\\RouteServiceProvider',
     18 => 'Kaban\\Core\\Providers\\KabanServiceProvider',
+    19 => 'Kaban\\Core\\Providers\\ComponentsServiceProvider',
+    20 => 'Kaban\\Core\\Providers\\MixBladeServiceProvider',
   ),
   'deferred' => 
   array (

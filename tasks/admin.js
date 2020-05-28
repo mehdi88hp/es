@@ -14,7 +14,8 @@ const mix = require('laravel-mix');
 mix
     .setPublicPath('./public/resources/admin/')
     .setResourceRoot('/resources/admin/')
-    .js('resources/admin_assets/js/app.js', 'public/resources/admin/js');
+    .js('resources/admin_assets/js/app.js', 'public/resources/admin/js')
+    .less('resources/admin_assets/less/app.less', 'public/resources/admin/css');
 
 
 module.exports = {

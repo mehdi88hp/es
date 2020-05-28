@@ -6,10 +6,10 @@ return [
 
         ],
         'Admin' => [
-
+            'Posts',
         ],
         'Site' => [
-            'Homepage',
+//            'Homepage',
         ],
     ]
 ];

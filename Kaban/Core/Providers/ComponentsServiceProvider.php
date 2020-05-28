@@ -18,16 +18,15 @@ class ComponentsServiceProvider extends ServiceProvider
 
 
         if (count($segments)) {
-            if (!in_array(ucfirst($segments[0]), ['Admin', 'Agency'])) {
+            if (!in_array(ucfirst($segments[0]), ['Admin'/*, 'Agency'*/])) {
                 unset($componentSections['Admin']);
-                unset($componentSections['Agency']);
+//                unset($componentSections['Agency']);
             }
         }
 
         foreach ($componentSections as $section => $components) {
 //            include base_path('routes/kaban/' . strtolower($section) . '-routes.php');
             foreach ($components as $component) {
-
                 $componentPath = component_path($component, $section);
                 $namespace = $section . $component;
 

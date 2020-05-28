@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fc95e43-4f23-4766-a775-61492d4fb7cc" name="Default Changelist" comment="" />
+    <list default="true" id="8fc95e43-4f23-4766-a775-61492d4fb7cc" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/Kaban/Components/Admin/Dashboard/Controllers/DashboardController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kaban/Components/Admin/Posts/Controllers/PostsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kaban/Components/Admin/Posts/Views/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kaban/Core/Composers/AdminComposer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kaban/Core/Providers/ViewComposersServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kaban/Core/Resources/Views/admin/main.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/resources/admin/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/admin_assets/js/components/main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/admin_assets/less/app.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kaban/Core/Helpers/GeneralHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/Kaban/Core/Helpers/GeneralHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kaban/Core/Providers/ComponentsServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Kaban/Core/Providers/ComponentsServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kaban/Core/Providers/KabanServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Kaban/Core/Providers/KabanServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/components.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/components.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/resources/admin/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/admin/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/resources/admin/js/apps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/resources/admin/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/admin/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/admin_assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/admin_assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin/posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/5C3jnyrQglNcEtyEOeFD3mKJHJmczng8VqIr3Eka" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/HsO7DTZYCzPe1FJowc2h9h9UXk4hiloEmCRmA5xj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/LJMiwOc1pq77d9fzR1P3dvNdecXD89vjO6kyl0rr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/Mx3coVhuxONcO5Gg43ruj9Q6bptpzz7hl0brDOVx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/STm20FUVtNIcsbtuPQqFDwwKkisHd44zcnxdfVRD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/Zv72DHVmAoacKXq4Wk5YDk9eVRuhHmcjBo4SyJGj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/cgWkeW14SX2ljyuZLlPNSuy3COOCsyXnEs2Bm4Or" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/htct4OEk0UJqs9ikEYe1hI1JcThgpgLfindSKcN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/wtxbBvDaIStBZwPOD1FFd2qaZYUHUFEuR72zv84d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/d26d2b5ced4fc6c19c605928a5d4c3f5b1ea2eb2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/admin.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +56,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -121,29 +161,35 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1bw81d8xV2PzU48jUtkNfQkbXsB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vuexy-admin-v5.3/vue-laravel-version/full-version" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Kaban/Core/Composers" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp2\htdocs\Eshow\Kaban\Core\Resources\Views" />
       <recent name="C:\xampp2\htdocs\Eshow\resources\admin_assets\js" />
       <recent name="C:\xampp2\htdocs\Eshow\resources\admin_assets" />
       <recent name="C:\xampp2\htdocs\Eshow\routes\site" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp2\htdocs\Eshow\Kaban\Core\Composers" />
       <recent name="C:\xampp2\htdocs\Eshow\Kaban\Core\Providers" />
+      <recent name="C:\xampp2\htdocs\Eshow\Kaban\Components\Admin\Posts" />
       <recent name="C:\xampp2\htdocs\Eshow\config" />
       <recent name="C:\xampp2\htdocs\Eshow\Kaban\Core\Helpers" />
-      <recent name="C:\xampp2\htdocs\Eshow\app" />
     </key>
   </component>
   <component name="RunManager">
@@ -184,32 +230,70 @@
       <workItem from="1590244557229" duration="1285000" />
       <workItem from="1590407659655" duration="4563000" />
       <workItem from="1590515485175" duration="303000" />
-      <workItem from="1590517569462" duration="2247000" />
+      <workItem from="1590517569462" duration="3131000" />
+      <workItem from="1590600551814" duration="2955000" />
+      <workItem from="1590655888040" duration="592000" />
+      <workItem from="1590658495949" duration="6381000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1590523940956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590523940957</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="103" y="83" width="1757" height="813" key="CommitChangelistDialog2" timestamp="1590670205289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="103" y="83" width="1757" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590670205289" />
+    <state x="205" y="62" key="DiffContextDialog" timestamp="1590670198670">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="205" y="62" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590670198670" />
     <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1590219866059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590092743052" />
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590219866059" />
-    <state x="727" y="411" key="NewPhpFileDialog" timestamp="1590517846081">
+    <state x="670" y="335" key="NewPhpClassDialog" timestamp="1590600632049">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="670" y="335" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590600632049" />
+    <state x="727" y="411" key="NewPhpFileDialog" timestamp="1590658952928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="517" y="288" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1590093580735" />
-    <state x="727" y="411" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590517846081" />
-    <state width="498" height="398" key="SwitcherDM" timestamp="1590090263234">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="498" height="398" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1590090263234" />
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1589736084983" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589736092733">
+    <state x="727" y="411" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590658952928" />
+    <state x="922" y="235" key="SettingsEditor" timestamp="1590669820923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589736092733" />
+    <state x="922" y="235" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590669820923" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1590665289902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="398" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1590090263234" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1590665289902" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1590523977242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590523977242" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590665431531">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590665431531" />
   </component>
 </project>

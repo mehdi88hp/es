@@ -36,6 +36,7 @@ function kaban_path()
 function component_path($componentName, $section = 'General')
 {
     $path = kaban_path() . '/Components/' . $section . '/' . $componentName;
+
     if (file_exists($path)) {
         return $path;
     }

@@ -179,7 +179,9 @@ return [
          * Kaban
          * */
         Kaban\Core\Providers\KabanServiceProvider::class,
+        Kaban\Core\Providers\ComponentsServiceProvider::class,
 
+        Kaban\Core\Providers\MixBladeServiceProvider::class,
 
     ],
 

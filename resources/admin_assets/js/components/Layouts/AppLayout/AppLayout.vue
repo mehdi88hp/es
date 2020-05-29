@@ -2,6 +2,7 @@
     <v-app id="inspire">
         <v-navigation-drawer
             v-model="drawer"
+            right
             app
         >
             <v-list dense>
@@ -15,7 +16,7 @@
                 </v-list-item>
                 <v-list-item link>
                     <v-list-item-action>
-                        <v-icon>mdi-contact-mail</v-icon>
+                        <v-icon>mdi-email</v-icon>
                     </v-list-item-action>
                     <v-list-item-content>
                         <v-list-item-title>Contact</v-list-item-title>
@@ -30,7 +31,8 @@
             dark
         >
             <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-            <v-toolbar-title>Application</v-toolbar-title>
+            <v-toolbar-title>{{$route.meta.title}}</v-toolbar-title>
+            <v-btn small :to="{name: 'posts.create'}">پست جدید</v-btn>
         </v-app-bar>
 
         <v-content>
@@ -43,20 +45,7 @@
                     justify="center"
                 >
                     <v-col class="text-center">
-                        <v-tooltip left>
-                            <template v-slot:activator="{ on }">
-                                <v-btn
-                                    :href="source"
-                                    icon
-                                    large
-                                    target="_blank"
-                                    v-on="on"
-                                >
-                                    <v-icon large>mdi-code-tags</v-icon>
-                                </v-btn>
-                            </template>
-                            <span>Source</span>
-                        </v-tooltip>
+                        <router-view></router-view>
                     </v-col>
                 </v-row>
             </v-container>
@@ -65,14 +54,14 @@
             color="indigo"
             app
         >
-            <span class="white--text">&copy; 2019</span>
+            <span class="white--text">&copy; 2020</span>
         </v-footer>
     </v-app>
 </template>
 
 <script>
     export default {
-        name: "main.vue",
+        name: "AppLayout",
         props: {
             source: String,
         },

@@ -2,13 +2,13 @@
 <html lang="en" dir="rtl">
 
 <head>
-        <meta charset="utf-8"/>
-        <title>{{ 'پنل مدیریت | ' . trans($title ?? '') }}</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta charset="utf-8"/>
+    <title>{{ 'پنل مدیریت | ' . trans($title ?? '') }}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
 
-        <!-- END GLOBAL MANDATORY STYLES -->
-        <!-- BEGIN PAGE LEVEL PLUGINS -->
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
     @yield('page_level_stylesheets')
     <meta charset="UTF-8">
     <meta name="viewport"
